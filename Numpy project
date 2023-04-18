@@ -1,0 +1,21 @@
+print("hello first year..")
+Output:
+hello first year..
+import numpy as np
+ar=np.array([[1,2,3,4,5],[4,5,6,7,8]])
+br=np.array([[[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]])
+print(ar)
+print(type(ar))
+print(ar.ndim)
+print(br.ndim)
+Output:
+[[1 2 3 4 5]
+ [4 5 6 7 8]]
+<class 'numpy.ndarray'>
+2
+3
+[[1 2 3 4 5]
+ [4 5 6 7 8]]
+<class 'numpy.ndarray'>
+2
+3
